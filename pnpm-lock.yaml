@@ -1,26 +1,28 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^18.0.3
-  '@types/react': ^18.0.15
+  '@types/node': ^18.7.18
+  '@types/react': ^18.0.20
   '@types/react-dom': ^18.0.6
-  autoprefixer: ^10.4.7
-  classnames: ^2.3.1
-  date-fns: ^2.28.0
+  autoprefixer: ^10.4.11
+  classnames: ^2.3.2
+  date-fns: ^2.29.3
   gray-matter: ^4.0.3
-  next: latest
-  postcss: ^8.4.14
+  js-yaml: ^4.1.0
+  next: 12.3.0
+  postcss: ^8.4.16
   react: ^18.2.0
   react-dom: ^18.2.0
   remark: ^14.0.2
   remark-html: ^15.0.1
-  tailwindcss: ^3.1.4
-  typescript: ^4.7.4
+  tailwindcss: ^3.1.8
+  typescript: ^4.8.3
 
 dependencies:
   classnames: 2.3.2
   date-fns: 2.29.3
   gray-matter: 4.0.3
+  js-yaml: 4.1.0
   next: 12.3.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -277,6 +279,10 @@ packages:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
     dependencies:
       sprintf-js: 1.0.3
+    dev: false
+
+  /argparse/2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: false
 
   /autoprefixer/10.4.11_postcss@8.4.16:
@@ -626,6 +632,13 @@ packages:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
+    dev: false
+
+  /js-yaml/4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
     dev: false
 
   /kind-of/6.0.3:
